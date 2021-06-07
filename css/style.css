@@ -16,8 +16,14 @@ body {
 .col {
     float: left;
 }
+.w-40 {
+    width: 40%;
+}
 .w-50 {
     width: 50%;
+}
+.w-60 {
+    width: 60%;
 }
 .text-center {
     text-align: center;
@@ -28,41 +34,80 @@ body {
 .text-white {
     color: white;
 }
+.size-13 {
+    font-size: 13px;
+}
+.size-15 {
+    font-size: 15px;
+}
 .bg-blue {
     background-color: #0061FF;
+}
+.btn.bg-blue:hover {
+    background-color: #3783ff;
 }
 a.btn {
     text-decoration: none;
     padding: 6px 18px;
+    display: inline-block;
+}
+.container-80 {
+    width: 80%;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 70px;
 }
 
-/* Stilizzazione main menu */
+/* Stilizzazione topbar */
 header .topbar {
-    height: 100px;
-    font-size: 15px;
-    font-weight: 600;
+    height: 70px;
+    font-weight: 400;
     padding: 0 25px;
 }
-.topbar ul {
+header .topbar ul {
     list-style-type: none;
     display: inline;
 }
-.topbar ul li {
-    line-height: 100px;
+header .topbar ul li {
+    line-height: 70px;
     display: inline;
     margin-right: 20px;
 }
-.topbar ul li a {
+header .topbar ul li a {
     color: black;
     text-decoration: none;
 }
-.topbar ul li a:hover {
+header .topbar ul li a:hover {
     text-decoration: underline;
 }
-.topbar .main-menu ul li a .logo {
+header .topbar .main-menu ul li a .logo {
     vertical-align: text-bottom;
 }
-.topbar .secondary-menu .btn {
-    font-size: 13px;
-    font-weight: 500;
+
+/* Stilizzazione hero */
+header .hero {
+    height: 630px;
+    background-color: #B4D0E7;
+    padding-top: 60px;
+}
+header .hero h1 {
+    margin-bottom: 30px;
+}
+header .hero p {
+    font-weight: 400;
+    padding-right: 100px;
+    margin-bottom: 30px;
+}
+header .hero img {
+    width: 100%;
+}
+header .hero .btn {
+    margin-bottom: 10px;
+}
+header .hero .trial {
+    margin-bottom: 30px;
+}
+header .hero .fa-arrow-down {
+    font-size: 35px;
 }

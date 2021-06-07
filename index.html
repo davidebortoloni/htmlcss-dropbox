@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'
+        integrity='sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=='
+        crossorigin='anonymous' />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
@@ -16,8 +19,10 @@
 
 <body>
 
+    <!-- Intestazione pagina -->
     <header>
-        <div class="topbar clearfix">
+        <!-- Barra di navigazione -->
+        <div class="topbar clearfix size-15">
             <nav class="main-menu col w-50">
                 <ul>
                     <li><a href="#"><img class="logo" src="./img/logo-small.png" alt="Logo Dropbox"></a></li>
@@ -32,24 +37,35 @@
                     <li><a href="#">Contatta l'ufficio vendite</a></li>
                     <li><a href="#">Accedi</a></li>
                 </ul>
-                <a class="btn text-white bg-blue" href="#">Inizia</a>
+                <a class="btn text-white bg-blue size-13" href="#">Inizia</a>
             </nav>
         </div>
+        <!-- Contenuto in evidenza -->
         <div class="hero">
-            <h1></h1>
-            <div class="clearfix">
-                <div class="col">
-                    <p></p>
-                    <a href=""></a>
-                    <div></div>
-                </div>
-                <div class="col">
-                    <img src="" alt="">
+            <div class="container-80">
+                <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+                <div class="clearfix">
+                    <div class="col w-40">
+                        <p class="size-15">
+                            Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso
+                            posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente
+                            e integrato per ottimizzare il flusso di lavoro esistente.
+                        </p>
+                        <div class="trial">
+                            <a class="btn text-white bg-blue" href="#">Inizia la tua prova gratuita</a>
+                            <div class="size-13">Annulla in qualsiasi momento</div>
+                        </div>
+                        <i class="fas fa-arrow-down"></i>
+                    </div>
+                    <div class="col w-60">
+                        <img src="./img/jumbo.png" alt="Screen Hero">
+                    </div>
                 </div>
             </div>
         </div>
     </header>
 
+    <!-- Contenuto principale della pagina -->
     <main>
 
         <section>
@@ -113,6 +129,8 @@
 
     </main>
 
+
+    <!-- Parte finale della pagina -->
     <footer>
         <div class="col"></div>
         <div class="col"></div>
