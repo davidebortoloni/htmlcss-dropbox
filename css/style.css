@@ -3,7 +3,66 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: 'Open Sans', sans-serif;
+}
+
+/* Utilities */
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.col {
+    float: left;
+}
+.w-50 {
+    width: 50%;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.text-white {
+    color: white;
+}
+.bg-blue {
+    background-color: #0061FF;
+}
+a.btn {
+    text-decoration: none;
+    padding: 6px 18px;
+}
+
+/* Stilizzazione main menu */
+header .topbar {
+    height: 100px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0 25px;
+}
+.topbar ul {
+    list-style-type: none;
+    display: inline;
+}
+.topbar ul li {
+    line-height: 100px;
+    display: inline;
+    margin-right: 20px;
+}
+.topbar ul li a {
+    color: black;
+    text-decoration: none;
+}
+.topbar ul li a:hover {
+    text-decoration: underline;
+}
+.topbar .main-menu ul li a .logo {
+    vertical-align: text-bottom;
+}
+.topbar .secondary-menu .btn {
+    font-size: 13px;
+    font-weight: 500;
 }
