@@ -16,6 +16,12 @@ body {
 .col {
     float: left;
 }
+.w-20 {
+    width: 20%;
+}
+.w-33 {
+    width: calc(100% / 3);
+}
 .w-40 {
     width: 40%;
 }
@@ -24,6 +30,9 @@ body {
 }
 .w-60 {
     width: 60%;
+}
+.w-100 {
+    width: 100%;
 }
 .text-center {
     text-align: center;
@@ -34,8 +43,14 @@ body {
 .text-white {
     color: white;
 }
+.size-12 {
+    font-size: 12px;
+}
 .size-13 {
     font-size: 13px;
+}
+.size-14 {
+    font-size: 14px;
 }
 .size-15 {
     font-size: 15px;
@@ -55,11 +70,52 @@ a.btn {
     width: 80%;
     margin: 0 auto;
 }
+.container-65 {
+    width: 65%;
+    margin: 0 auto;
+}
 h1 {
     font-size: 70px;
 }
+h2 {
+    font-size: 35px;
+}
+h3 {
+    font-size: 25px;
+}
+h4 {
+    font-size: 15px;
+}
+.circle {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid #d0d0d3;
+}
+.circle.selected {
+    border: 5px solid #0061FF;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.mb-40 {
+    margin-bottom: 40px;
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
 
 /* Stilizzazione topbar */
+header {
+    margin-bottom: 165px;
+}
 header .topbar {
     height: 70px;
     font-weight: 400;
@@ -93,16 +149,9 @@ header .hero {
 header .hero p {
     font-weight: 400;
     padding-right: 100px;
-    margin-bottom: 30px;
 }
 header .hero img {
     width: 100%;
-}
-header .hero .btn {
-    margin-bottom: 10px;
-}
-header .hero .trial {
-    margin-bottom: 30px;
 }
 header .hero .fa-arrow-down {
     font-size: 35px;
@@ -111,4 +160,47 @@ header .hero .fa-arrow-down {
 header .hero .row {
     position: relative;
     top: 70px;
+}
+
+/* Stilizzazione main */
+main .plans .radio {
+    display: inline-block;
+    margin-right: 20px;
+}
+main .plans .circle {
+    margin-right: 5px;
+    position: relative;
+    top: 3px;
+}
+main .plans .columns .col.left {
+    padding-right: 40px;
+}
+main .plans .columns .col.center {
+    padding: 0 20px;
+}
+main .plans .columns .col.right {
+    padding-left: 40px;
+}
+main .plans .columns .col .contain {
+    border: 1px solid #d0d0d3;
+    height: 900px;
+}
+main .plans .plan-target {
+    line-height: 40px;
+    border-bottom: 1px solid #d0d0d3;
+}
+main .plans .plan-info {
+    padding: 30px 25px 0 25px;
+}
+main .plans .plan-info .plan-overview .frequency {
+    color: #637381;
+}
+main .plans .plan-info .plan-overview .buy-now a {
+    color: #0061FF;
+}
+main .plans .plan-info .plan-details ul {
+    list-style-type: none;
+}
+main .plans .plan-info .plan-details ul li i {
+    color: #0061FF;
 }

@@ -12,6 +12,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
         rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'
+        integrity='sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=='
+        crossorigin='anonymous' />
     <link rel="icon" href="./img/logo.png">
     <link rel="stylesheet" href="./css/style.css">
     <title>Dropbox</title>
@@ -46,13 +49,13 @@
                 <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
                 <div class="clearfix row">
                     <div class="col w-40">
-                        <p class="size-15">
+                        <p class="size-15 mb-30">
                             Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso
                             posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente
                             e integrato per ottimizzare il flusso di lavoro esistente.
                         </p>
-                        <div class="trial">
-                            <a class="btn text-white bg-blue" href="#">Inizia la tua prova gratuita</a>
+                        <div class="trial mb-30">
+                            <a class="btn text-white bg-blue mb-10" href="#">Inizia la tua prova gratuita</a>
                             <div class="size-13">Annulla in qualsiasi momento</div>
                         </div>
                         <i class="fas fa-arrow-down"></i>
@@ -68,14 +71,223 @@
     <!-- Contenuto principale della pagina -->
     <main>
 
-        <section>
-            <h2></h2>
-            <div></div>
-            <div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
+        <!-- Sezione contenente i diversi piani -->
+        <section class="plans container-65">
+            <h2 class="mb-50">Trova il piano Dropbox Business che fa per te</h2>
+            <div class="choose-plan mb-40">
+                <div class="radio monthly">
+                    <div class="circle selected"></div>
+                    Fatturazione mensile
+                </div>
+                <div class="radio annual">
+                    <div class="circle"></div>
+                    Fatturazione annuale
+                </div>
             </div>
+            <div class="columns clearfix">
+
+                <div class="col w-33 left">
+                    <div class="contain">
+                        <div class="plan-target text-center">
+                            <i class="far fa-user"></i>
+                            Singolo
+                        </div>
+                        <div class="plan-info">
+                            <div class="plan-overview">
+                                <h3 class="mb-20">Professional</h3>
+                                <div class="price mb-20"><strong>19,99 €</strong></div>
+                                <div class="frequency size-12 mb-40">/mese</div>
+                                <div class="benefits size-13 mb-40">
+                                    <div class="benefit mb-20">
+                                        <i class="far fa-user"></i>
+                                        1 utente
+                                    </div>
+                                    <div class="benefit mb-20">
+                                        <i class="far fa-folder"></i>
+                                        3 TB di spazio di archiviazione sicuro
+                                    </div>
+                                    <div class="benefit mb-20">
+                                        <i class="fas fa-pencil-alt"></i>
+                                        Funzioni di produttività premium e condivisione file semplice e sicura
+                                    </div>
+                                </div>
+                                <div class="size-13 trial mb-20">
+                                    <a class="btn bg-blue text-white text-center w-100" href="#">
+                                        Prova gratis per 30 giorni
+                                    </a>
+                                </div>
+                                <div class="size-13 buy-now mb-20">
+                                    oppure <a href="#">acquista ora</a>
+                                </div>
+                            </div>
+                            <hr class="w-20 mb-30">
+                            <div class="plan-details">
+                                <h4 class="mb-20">Punti salienti del piano</h4>
+                                <ul class="size-13">
+                                    <li class="mb-20">
+                                        <i class="fas fa-check"></i>
+                                        Invia file fino a 100 GB con Dropbox Transfert
+                                    </li>
+                                    <li class="mb-20">
+                                        <i class="fas fa-check"></i>
+                                        Cartelle offline su dispositivi mobili
+                                    </li>
+                                    <li class="mb-20">
+                                        <i class="fas fa-check"></i>
+                                        Pulizia remota dell'account
+                                    </li>
+                                    <li class="mb-20">
+                                        <i class="fas fa-check"></i>
+                                        Filigrana documento
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check"></i>
+                                        Assistenza prioritaria via email e chat
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col w-33 center">
+                    <div class="contain">
+                        <div class="plan-target text-center">
+                            <i class="far fa-building"></i>
+                            Team
+                        </div>
+                        <div class="plan-info">
+                            <div class="plan-overview">
+                                <h3 class="mb-20">Standard</h3>
+                                <div class="price mb-20"><strong>19,99 €</strong></div>
+                                <div class="frequency size-12 mb-40">/ utente / mese, a partire da 3 utenti</div>
+                                <div class="benefits size-13 mb-40">
+                                    <div class="benefit mb-20">
+                                        <i class="fas fa-user-plus"></i>
+                                        1 utente
+                                    </div>
+                                    <div class="benefit mb-20">
+                                        <i class="far fa-folder"></i>
+                                        3 TB di spazio di archiviazione sicuro
+                                    </div>
+                                    <div class="benefit mb-20">
+                                        <i class="far fa-smile"></i>
+                                        Funzioni di produttività premium e condivisione file semplice e sicura
+                                    </div>
+                                </div>
+                                <div class="size-13 trial mb-20">
+                                    <a class="btn bg-blue text-white text-center w-100" href="#">
+                                        Prova gratis per 30 giorni
+                                    </a>
+                                </div>
+                                <div class="size-13 buy-now mb-20">
+                                    oppure <a href="#">acquista ora</a>
+                                </div>
+                            </div>
+                            <hr class="w-20 mb-30">
+                            <div class="plan-details">
+                                <h4 class="mb-20">Punti salienti del piano</h4>
+                                <ul class="size-13">
+                                    <li class="mb-20">
+                                        <i class="fas fa-check"></i>
+                                        Invia file fino a 100 GB con Dropbox Transfert
+                                    </li>
+                                    <li class="mb-20">
+                                        <i class="fas fa-check"></i>
+                                        Cartelle offline su dispositivi mobili
+                                    </li>
+                                    <li class="mb-20">
+                                        <i class="fas fa-check"></i>
+                                        Pulizia remota dell'account
+                                    </li>
+                                    <li class="mb-20">
+                                        <i class="fas fa-check"></i>
+                                        Filigrana documento
+                                    </li>
+                                    <li class="mb-20">
+                                        <i class="fas fa-check"></i>
+                                        Assistenza prioritaria via email e chat
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check"></i>
+                                        Assistenza prioritaria via email e chat
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col w-33 right">
+                    <div class="contain">
+                        <div class="plan-target text-center">
+                            <i class="far fa-building"></i>
+                            Team
+                        </div>
+                        <div class="plan-info">
+                            <div class="plan-overview">
+                                <h3 class="mb-20">Advanced</h3>
+                                <div class="price mb-20"><strong>19,99 €</strong></div>
+                                <div class="frequency size-12 mb-40">/ utente /mese, a partire da 3 utenti</div>
+                                <div class="benefits size-13 mb-40">
+                                    <div class="benefit mb-20">
+                                        <i class="fas fa-user-plus"></i>
+                                        1 utente
+                                    </div>
+                                    <div class="benefit mb-20">
+                                        <i class="far fa-smile"></i>
+                                        3 TB di spazio di archiviazione sicuro
+                                    </div>
+                                    <div class="benefit mb-20">
+                                        <i class="fas fa-pencil-alt"></i>
+                                        Funzioni di produttività premium e condivisione file semplice e sicura
+                                    </div>
+                                </div>
+                                <div class="size-13 trial mb-20">
+                                    <a class="btn bg-blue text-white text-center w-100" href="#">
+                                        Prova gratis per 30 giorni
+                                    </a>
+                                </div>
+                                <div class="size-13 buy-now mb-20">
+                                    oppure <a href="#">acquista ora</a>
+                                </div>
+                            </div>
+                            <hr class="w-20 mb-30">
+                            <div class="plan-details">
+                                <h4 class="mb-20">Punti salienti del piano</h4>
+                                <ul class="size-13">
+                                    <li class="mb-20">
+                                        <i class="fas fa-check"></i>
+                                        Invia file fino a 100 GB con Dropbox Transfert
+                                    </li>
+                                    <li class="mb-20">
+                                        <i class="fas fa-check"></i>
+                                        Cartelle offline su dispositivi mobili
+                                    </li>
+                                    <li class="mb-20">
+                                        <i class="fas fa-check"></i>
+                                        Pulizia remota dell'account
+                                    </li>
+                                    <li class="mb-20">
+                                        <i class="fas fa-check"></i>
+                                        Filigrana documento
+                                    </li>
+                                    <li class="mb-20">
+                                        <i class="fas fa-check"></i>
+                                        Assistenza prioritaria via email e chat
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check"></i>
+                                        Assistenza prioritaria via email e chat
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
             <div></div>
             <div></div>
         </section>
