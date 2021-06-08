@@ -61,6 +61,9 @@ body {
 .text-black {
     color: black;
 }
+.text-blue {
+    color: #0061FF;
+}
 .size-12 {
     font-size: 12px;
 }
@@ -243,9 +246,6 @@ main .plans .plan-info .plan-overview .benefit {
     padding-left: 1.5em;
     text-indent: -0.7em;
 }
-main .plans .plan-info .plan-overview .buy-now a {
-    color: #0061FF;
-}
 main .plans .plan-info .plan-details ul {
     list-style-type: none;
 }
@@ -296,4 +296,52 @@ main .features .columns .image.security {
 }
 .features .columns {
     margin-bottom: 90px;
+}
+main .features {
+    margin-bottom: 170px;
+}
+main .clients .client {
+    height: 230px;
+    position: relative;
+}
+main .clients .client.one {
+    background-color: #A2D39B;
+}
+main .clients .client.two {
+    background-color: #61082B;
+}
+main .clients .client.three {
+    background-color: #0093CE;
+}
+main .clients .client.four {
+    background-color: #FF1C1C;
+}
+main .clients .client.five {
+    background-color: #D5001F;
+}
+main .clients .client.six {
+    background-color: #B4D0E7;
+}
+main .clients .client.seven {
+    background-color: #0D2481;
+}
+main .clients .client.eight {
+    background-color: #FFD830;
+}
+main .clients .client img {
+    width: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%);
+}
+.clients .col.center {
+    padding: 50px;
+}
+.clients .col.center img {
+    width: 130px;
+}
+.clients .col.center hr {
+    width: 50px;
 }
