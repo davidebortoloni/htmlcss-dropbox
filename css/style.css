@@ -214,13 +214,13 @@ main .plans .circle {
     position: relative;
     top: 3px;
 }
-main .plans .columns .col.left {
+main .plans .columns .col.left, main .features .columns .col.left {
     padding-right: 40px;
 }
-main .plans .columns .col.center {
+main .plans .columns .col.center, main .features .columns .col.center {
     padding: 0 20px;
 }
-main .plans .columns .col.right {
+main .plans .columns .col.right, main .features .columns .col.right {
     padding-left: 40px;
 }
 main .plans .contain {
@@ -264,4 +264,36 @@ main .partner .partner-for-you .col.right {
 }
 main .partner .partner-for-you .col.right p {
     line-height: 175%;
+}
+main .partner {
+    margin-bottom: 90px;
+}
+main .features .columns .image {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+main .features .columns .image.switching {
+    background-image: url('../img/business-feature-switching-tools.png');
+}
+main .features .columns .image.coordinate {
+    background-image: url('../img/business-feature-coordinate-it.png');
+}
+main .features .columns .image.multi-device {
+    background-image: url('../img/business-feature-multi-device.png');
+}
+main .features .columns .image.integrations {
+    background-image: url('../img/business-feature-integrations-it.png');
+}
+main .features .columns .image.send-files {
+    background-image: url('../img/business-feature-send-files-it.png');
+}
+main .features .columns .image.security {
+    background-image: url('../img/business-feature-security.png');
+}
+.features .contain p {
+    font-size: 15px;
+}
+.features .columns {
+    margin-bottom: 90px;
 }
