@@ -135,11 +135,23 @@ h4 {
 .mb-30 {
     margin-bottom: 30px;
 }
+.p-30 {
+    padding: 30px 0;
+}
 .mb-40 {
     margin-bottom: 40px;
 }
 .mb-50 {
     margin-bottom: 50px;
+}
+.bb-grey {
+    border-bottom: 1px solid #dcdcde;
+}
+.bt-grey {
+    border-top: 1px solid #dcdcde;
+}
+.pr-40 {
+    padding-right: 40px;
 }
 
 /* Stilizzazione topbar */
@@ -355,4 +367,51 @@ main .clients .client img {
 .clients .call-to-action a {
     padding: 7px 30px;
     border: none;
+}
+main hr {
+    border: 1px solid #dcdcde;
+}
+main .faq {
+    padding: 120px 0;
+}
+
+/* Stilizzazione footer */
+footer {
+    background-color: black;
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+footer h5 {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+footer ul {
+    font-size: 13px;
+    list-style-type: none;
+}
+footer ul li {
+    margin: 10px 0;
+}
+footer ul a {
+    color: white;
+    text-decoration: none;
+}
+footer ul a:hover {
+    text-decoration: underline;
+}
+footer hr {
+    width: 100px;
+    border-color: #999999;
+}
+footer .bottom-menu {
+    margin-bottom: 100px;
+}
+footer .language {
+    margin-top: 40px;
+    color: #999999;
+}
+footer .fa-sort-up {
+    position: relative;
+    top: 4px;
 }
