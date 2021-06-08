@@ -345,3 +345,14 @@ main .clients .client img {
 .clients .col.center hr {
     width: 50px;
 }
+.clients .call-to-action {
+    background-color: #B4D0E7;
+    padding: 100px 0;
+}
+.clients .call-to-action h2 {
+    color: #61082B;
+}
+.clients .call-to-action a {
+    padding: 7px 30px;
+    border: none;
+}
