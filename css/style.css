@@ -319,26 +319,50 @@ main .clients .client {
 main .clients .client.one {
     background-color: #A2D39B;
 }
+main .clients .client.one:hover {
+    border: 10px solid #D0E9CD;
+}
 main .clients .client.two {
     background-color: #61082B;
+}
+main .clients .client.two:hover {
+    border: 10px solid #B08395;
 }
 main .clients .client.three {
     background-color: #0093CE;
 }
+main .clients .client.three:hover {
+    border: 10px solid #7FC9E7;
+}
 main .clients .client.four {
     background-color: #FF1C1C;
+}
+main .clients .client.four:hover {
+    border: 10px solid #FF8D8D;
 }
 main .clients .client.five {
     background-color: #D5001F;
 }
+main .clients .client.five:hover {
+    border: 10px solid #EA7F8F;
+}
 main .clients .client.six {
     background-color: #B4D0E7;
+}
+main .clients .client.six:hover {
+    border: 10px solid #DAE8F3;
 }
 main .clients .client.seven {
     background-color: #0D2481;
 }
+main .clients .client.seven:hover {
+    border: 10px solid #8691C0;
+}
 main .clients .client.eight {
     background-color: #FFD830;
+}
+main .clients .client.eight:hover {
+    border: 10px solid #FFEC97;
 }
 main .clients .client img {
     width: 120px;
@@ -369,7 +393,7 @@ main .clients .client img {
     border: none;
 }
 main hr {
-    border: 1px solid #dcdcde;
+    border-color: #dcdcde;
 }
 main .faq {
     padding: 120px 0;
